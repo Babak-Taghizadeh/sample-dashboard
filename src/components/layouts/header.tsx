@@ -10,7 +10,7 @@ const Header = () => {
         <SidebarTrigger />
         <Image src={Logo} alt="patara-logo" />
       </div>
-      <div className="hidden w-full items-center md:flex">
+      <div className="hidden w-full flex-row-reverse items-center md:flex">
         <HeaderTools />
       </div>
     </header>
