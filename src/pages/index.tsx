@@ -1,7 +1,6 @@
+import AnimatedAlphaDots from "@/components/section/animated-alpha-dots";
+import ReferralCard from "@/components/section/referral-card";
+
 export default function Home() {
-  return (
-    <div>
-      <h1>Hello Patara</h1>
-    </div>
-  );
+  return <AnimatedAlphaDots Content={<ReferralCard />} />;
 }
