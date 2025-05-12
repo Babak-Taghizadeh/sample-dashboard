@@ -8,6 +8,7 @@ import {
 import { Button } from "@/components/ui/button";
 import GradientBackground from "@/components/ui/gradient-background";
 import ReferralRadar from "../referral-radar";
+import Arrow from "../../../../public/icons/Arrow.svg"
 
 const ReferralShareCard = () => {
   return (
@@ -35,6 +36,7 @@ const ReferralShareCard = () => {
               className="w-full p-6 sm:flex-1/2"
               variant="secondary"
             >
+              <Arrow />
               Share
             </Button>
           </div>
