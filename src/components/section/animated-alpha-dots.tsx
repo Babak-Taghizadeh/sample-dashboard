@@ -8,7 +8,7 @@ interface AnimatedAlphaDotsProps {
 
 const AnimatedAlphaDots = ({ Content }: AnimatedAlphaDotsProps) => {
   return (
-    <div className="relative col-span-12 overflow-hidden md:p-16">
+    <div className="relative col-span-12 row-span-full overflow-hidden md:p-16">
       <motion.div
         initial={{ scale: 0.9 }}
         animate={{ scale: 1.1 }}
