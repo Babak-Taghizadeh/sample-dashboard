@@ -12,7 +12,7 @@ const ReferralCard = () => {
   return (
     <Card className="relative w-full max-w-[460px] gap-4 py-4 sm:gap-10 sm:py-10">
       <CardHeader className="max-h-[360px]">
-        <GradientBackground height="440" />
+        <GradientBackground className="h-2/3!" />
         <ReferRadar />
       </CardHeader>
 

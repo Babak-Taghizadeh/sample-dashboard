@@ -1,11 +1,12 @@
+import { cn } from "@/lib/utils";
 import Gradient from "../../../public/images/gradient.png";
 import Image from "next/image";
 
 interface GradientBackgroundProps {
-  height?: string;
+  className?: string;
 }
 
-const GradientBackground = ({ height }: GradientBackgroundProps) => {
+const GradientBackground = ({ className }: GradientBackgroundProps) => {
   return (
     <Image
       src={Gradient}
@@ -14,7 +15,7 @@ const GradientBackground = ({ height }: GradientBackgroundProps) => {
       priority
       quality={100}
       objectFit="cover"
-      className={`pointer-events-none max-h-[${height}px]! select-none`}
+      className={cn("pointer-events-none select-none", className)}
     />
   );
 };
