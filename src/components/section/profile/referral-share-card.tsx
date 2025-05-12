@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import GradientBackground from "@/components/ui/gradient-background";
-import ReferRadar from "../refer-radar";
+import ReferralRadar from "../referral-radar";
 
 const ReferralShareCard = () => {
   return (
@@ -42,7 +42,7 @@ const ReferralShareCard = () => {
       </div>
       <div className="relative flex-auto p-4">
         <GradientBackground className="top-14! h-[300px]!" />
-        <ReferRadar />
+        <ReferralRadar />
       </div>
     </Card>
   );

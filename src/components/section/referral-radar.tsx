@@ -3,7 +3,7 @@ import Image from "next/image";
 import Letters from "../../../public/images/letters.png";
 import PLogo from "../../../public/images/p-logo.png";
 
-const ReferRadar = () => {
+const ReferralRadar = () => {
   return (
     <div className="relative row-span-full flex h-[320px] items-center justify-center overflow-hidden">
       <motion.div
@@ -37,4 +37,4 @@ const ReferRadar = () => {
   );
 };
 
-export default ReferRadar;
+export default ReferralRadar;

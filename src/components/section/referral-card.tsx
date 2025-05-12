@@ -5,7 +5,7 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import ReferRadar from "./refer-radar";
+import ReferralRadar from "./referral-radar";
 import GradientBackground from "../ui/gradient-background";
 
 const ReferralCard = () => {
@@ -13,7 +13,7 @@ const ReferralCard = () => {
     <Card className="relative w-full max-w-[460px] gap-4 py-4 sm:gap-10 sm:py-10">
       <CardHeader className="max-h-[360px]">
         <GradientBackground className="h-2/3!" />
-        <ReferRadar />
+        <ReferralRadar />
       </CardHeader>
 
       <CardContent className="flex flex-col items-center gap-2 px-6 sm:mt-6">
