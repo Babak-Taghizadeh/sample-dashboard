@@ -139,3 +139,12 @@ button {
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .custom-table-cells {
+    @apply bg-secondary p-5;
+  }
+  .custom-table-cells-unit {
+    @apply text-muted-foreground ml-1 text-[12px];
+  }
+}
