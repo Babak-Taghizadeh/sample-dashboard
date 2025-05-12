@@ -33,8 +33,8 @@ const HeaderActions = ({ isInSidebar }: { isInSidebar?: boolean }) => {
       </Button>
       {pathname === "/profile" ? (
         <Select defaultValue="user">
-          <SelectTrigger className="w-[160px]">
-            <SelectValue placeholder="Transaction Count" />
+          <SelectTrigger className="bg-input! w-[160px] border-0">
+            <SelectValue placeholder="Select User" />
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
