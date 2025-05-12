@@ -15,7 +15,6 @@ const ReferRadar = () => {
         quality={100}
         objectFit="contain"
         className="select-none"
-        placeholder="blur"
       />
       <motion.div
         initial={{ rotate: 0 }}
