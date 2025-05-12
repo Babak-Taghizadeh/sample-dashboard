@@ -15,7 +15,7 @@ const MainLayout = ({ children, className }: MainLayoutProps) => {
       <AppSidebar />
       <div className={cn("flex min-h-screen w-full flex-col", className)}>
         <Header />
-        <main className="grid flex-grow grid-cols-1 gap-4 px-4 md:grid-cols-12">
+        <main className="grid flex-grow grid-cols-1 gap-4 p-4 md:grid-cols-12">
           {children}
         </main>
       </div>
