@@ -15,7 +15,7 @@ import EarningsPagination from "./earnings-pagination";
 const EarningTable = () => {
   return (
     <div className="bg-primary rounded-2xl px-3 pb-4">
-      <Table className="border-separate border-spacing-y-3 mb-2">
+      <Table className="border-separate border-spacing-y-3">
         <TableHeader>
           <TableRow>
             {EARNING_TABLE_HEADERS.map((item) => {

@@ -7,7 +7,7 @@ import AvatarIcon from "../../../../public/icons/avatar.svg";
 
 const ReferralStats = () => {
   return (
-    <div className="flex flex-col gap-4 md:col-span-3 md:justify-between">
+    <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-1 md:col-span-full xl:col-span-3">
       <ReferralStatCard
         icon={<HandCoinsIcon />}
         label="Total Earned Fee"
