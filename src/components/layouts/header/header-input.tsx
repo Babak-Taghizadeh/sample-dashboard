@@ -1,6 +1,6 @@
 import { Input } from "@/components/ui/input";
 import SearchIcon from "../../../../public/icons/Search.svg";
-import Shortcut from "../../../../public/icons/Shortcut.svg";
+import ShortcutIcon from "../../../../public/icons/Shortcut.svg";
 import { cn } from "@/lib/utils";
 
 const HeaderInput = ({ isInSidebar }: { isInSidebar?: boolean }) => {
@@ -16,7 +16,7 @@ const HeaderInput = ({ isInSidebar }: { isInSidebar?: boolean }) => {
         className="p-4 pl-8"
         placeholder="Enter Accounts, Platforms, NFTs, Token"
       />
-      <Shortcut className="absolute top-[6px] right-2" />
+      <ShortcutIcon className="absolute top-[6px] right-2" />
     </div>
   );
 };
