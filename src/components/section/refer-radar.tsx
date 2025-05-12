@@ -25,7 +25,7 @@ const ReferRadar = () => {
           repeat: Infinity,
           ease: "linear",
         }}
-        className="absolute inset-0"
+        className="absolute inset-0 will-change-transform"
       >
         <Image
           src={Letters}

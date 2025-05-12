@@ -18,7 +18,7 @@ const AnimatedAlphaDots = ({ Content }: AnimatedAlphaDotsProps) => {
           repeatType: "mirror",
           ease: "easeInOut",
         }}
-        className="absolute inset-0 bottom-0"
+        className="absolute inset-0 will-change-transform"
       >
         <Image
           src={AlphaDots}
