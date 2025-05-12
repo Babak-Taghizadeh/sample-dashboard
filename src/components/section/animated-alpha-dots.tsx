@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Image from "next/image";
 import AlphaDots from "../../../public/images/alpha-dots.png";
 
@@ -8,7 +8,7 @@ interface AnimatedAlphaDotsProps {
 
 const AnimatedAlphaDots = ({ Content }: AnimatedAlphaDotsProps) => {
   return (
-    <div className="relative col-span-12 h-full overflow-hidden md:p-10">
+    <div className="relative col-span-12 row-span-full overflow-hidden md:p-16">
       <motion.div
         initial={{ scale: 0.9 }}
         animate={{ scale: 1.1 }}
@@ -18,7 +18,7 @@ const AnimatedAlphaDots = ({ Content }: AnimatedAlphaDotsProps) => {
           repeatType: "mirror",
           ease: "easeInOut",
         }}
-        className="absolute inset-0 bottom-0"
+        className="absolute inset-0 will-change-transform"
       >
         <Image
           src={AlphaDots}

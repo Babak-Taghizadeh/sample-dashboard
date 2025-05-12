@@ -109,7 +109,7 @@ button {
   --secondary: oklch(0.28 0 0);
   --secondary-foreground: oklch(0.985 0 0);
   --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
+  --muted-foreground: oklch(0.6 0 0);
   --accent: oklch(0.269 0 0);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.704 0.191 22.216);
@@ -137,5 +137,14 @@ button {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .custom-table-cells {
+    @apply bg-secondary p-5;
+  }
+  .custom-table-cells-unit {
+    @apply text-muted-foreground ml-1 text-[12px];
   }
 }
