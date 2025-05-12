@@ -26,12 +26,11 @@ const AnimatedAlphaDots = ({ Content }: AnimatedAlphaDotsProps) => {
           fill
           priority
           quality={100}
-          objectFit="contain"
           className="select-none"
           placeholder="blur"
         />
       </motion.div>
-      <div className="flex h-full w-full items-center justify-center">
+      <div className="flex h-full w-full items-center justify-center object-contain">
         {Content}
       </div>
     </div>

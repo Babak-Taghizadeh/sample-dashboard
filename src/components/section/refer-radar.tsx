@@ -20,9 +20,8 @@ const ReferRadar = () => {
           src={Letters}
           alt="Decorative letter pattern"
           fill
-          objectFit="contain"
           quality={100}
-          className="select-none"
+          className="select-none object-contain"
         />
       </motion.div>
       <Image
