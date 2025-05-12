@@ -7,13 +7,13 @@ const ReferRadar = () => {
   return (
     <div className="relative row-span-full flex h-[320px] items-center justify-center overflow-hidden">
       <motion.div
-        // initial={{ rotate: 0 }}
-        // animate={{ rotate: 360 }}
-        // transition={{
-        //   duration: 20,
-        //   repeat: Infinity,
-        //   ease: "linear",
-        // }}
+        initial={{ rotate: 0 }}
+        animate={{ rotate: 360 }}
+        transition={{
+          duration: 20,
+          repeat: Infinity,
+          ease: "linear",
+        }}
         className="absolute inset-0 will-change-transform"
       >
         <Image
