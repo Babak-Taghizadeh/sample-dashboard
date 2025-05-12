@@ -1,21 +1,11 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import Letters from "../../../public/images/letters.png";
-import Gradient from "../../../public/images/gradient.png";
 import PLogo from "../../../public/images/p-logo.png";
 
 const ReferRadar = () => {
   return (
-    <div className="relative row-span-full flex h-full items-center justify-center">
-      <Image
-        src={Gradient}
-        alt="Decorative gradient background"
-        fill
-        priority
-        quality={100}
-        objectFit="contain"
-        className="select-none"
-      />
+    <div className="relative row-span-full flex h-[320px] items-center justify-center">
       <motion.div
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}
