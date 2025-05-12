@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import BellIcon from "../../../../public/icons/Bell.svg";
 import GearIcon from "../../../../public/icons/Gear.svg";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const HeaderActions = ({ isInSidebar }: { isInSidebar?: boolean }) => {
   return (
@@ -17,7 +18,15 @@ const HeaderActions = ({ isInSidebar }: { isInSidebar?: boolean }) => {
       <Button variant="secondary" size="icon">
         <GearIcon />
       </Button>
-      <Button className="flex-1 md:flex-none">Connect/Sign In</Button>
+      <Link
+        href="/profile"
+        className={cn(
+          buttonVariants({ variant: "default", size: "default" }),
+          isInSidebar && "flex-auto",
+        )}
+      >
+        Connect/Sign In
+      </Link>
     </div>
   );
 };
