@@ -6,7 +6,7 @@ const HeaderMenuLogo = () => {
   return (
     <div className="flex w-full items-center justify-between gap-4 md:w-1/3 md:justify-start">
       <SidebarTrigger />
-      <Image src={Logo} alt="patara-logo" />
+      <Image src={Logo} alt="patara-logo" quality={100}/>
     </div>
   );
 };
