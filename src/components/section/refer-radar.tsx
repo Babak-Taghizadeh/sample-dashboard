@@ -5,7 +5,7 @@ import PLogo from "../../../public/images/p-logo.png";
 
 const ReferRadar = () => {
   return (
-    <div className="relative row-span-full flex h-[320px] items-center justify-center">
+    <div className="relative row-span-full flex h-[320px] items-center justify-center overflow-hidden">
       <motion.div
         initial={{ rotate: 0 }}
         animate={{ rotate: 360 }}
