@@ -42,8 +42,8 @@ const ReferralShareCard = () => {
           </div>
         </CardContent>
       </div>
-      <div className="relative flex-auto p-4">
-        <GradientBackground className="top-14! h-[300px]!" />
+      <div className="flex-1/2">
+        <GradientBackground />
         <ReferralRadar />
       </div>
     </Card>

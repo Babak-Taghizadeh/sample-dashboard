@@ -15,7 +15,7 @@ const GradientBackground = ({ className }: GradientBackgroundProps) => {
       priority
       quality={100}
       className={cn(
-        "pointer-events-none object-contain select-none",
+        "pointer-events-none object-cover select-none",
         className,
       )}
     />
