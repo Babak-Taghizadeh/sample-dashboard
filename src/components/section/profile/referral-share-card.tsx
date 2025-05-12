@@ -9,9 +9,9 @@ import { Button } from "@/components/ui/button";
 import GradientBackground from "@/components/ui/gradient-background";
 import ReferRadar from "../refer-radar";
 
-const ReferShareCard = () => {
+const ReferralShareCard = () => {
   return (
-    <Card className="relative col-span-9 md:h-full p-0 md:flex-row md:items-center md:justify-between">
+    <Card className="relative p-0 md:col-span-full md:h-full md:flex-row md:items-center md:justify-between xl:col-span-9">
       <div className="flex h-full flex-col p-6 md:w-1/2 md:gap-16">
         <CardHeader className="space-y-1 p-0">
           <CardTitle className="text-[32px]">Refer and Earn</CardTitle>
@@ -40,13 +40,12 @@ const ReferShareCard = () => {
           </div>
         </CardContent>
       </div>
-      {/* TODO: there is a thin line that needs to be faded  */}
-      <div className="relative flex-1 p-6">
-        <GradientBackground className="" />
+      <div className="relative flex-auto p-4">
+        <GradientBackground className="top-14! h-[300px]!" />
         <ReferRadar />
       </div>
     </Card>
   );
 };
 
-export default ReferShareCard;
+export default ReferralShareCard;

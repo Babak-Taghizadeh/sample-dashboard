@@ -15,7 +15,7 @@ const MainLayout = ({ children, className }: MainLayoutProps) => {
       <AppSidebar />
       <div className={cn("flex min-h-screen w-full flex-col", className)}>
         <Header />
-        <main className="grid grid-cols-1 gap-y-8 p-4 md:grid-cols-12 md:grid-rows-[400px_auto] md:gap-4">
+        <main className="grid grid-cols-1 gap-y-8 p-4 md:grid-cols-12 md:grid-rows-[400px_auto] md:gap-4 md:gap-y-12">
           {children}
         </main>
       </div>

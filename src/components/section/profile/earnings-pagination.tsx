@@ -19,7 +19,7 @@ import {
 
 const EarningsPagination = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="mt-4 flex flex-col items-center justify-center gap-4 md:flex-row">
       <Select defaultValue="10 Transaction">
         <SelectTrigger className="w-[160px]">
           <SelectValue placeholder="Transaction Count" />

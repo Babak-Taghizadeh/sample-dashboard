@@ -14,8 +14,10 @@ const GradientBackground = ({ className }: GradientBackgroundProps) => {
       fill
       priority
       quality={100}
-      objectFit="cover"
-      className={cn("pointer-events-none select-none", className)}
+      className={cn(
+        "pointer-events-none object-contain select-none",
+        className,
+      )}
     />
   );
 };
