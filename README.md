@@ -1,4 +1,4 @@
-# Patara Referral & Earnings Dashboard
+# Referral & Earnings Dashboard
 
 The Referral & Earnings Dashboard is a modern Next.js app built to display referral stats, earnings, and historical activity in a sleek, responsive, and developer-friendly UI.
 
@@ -26,8 +26,8 @@ Install the project with npm
 1- Clone the repository
 
 ```bash
-git clone https://github.com/Babak-Taghizadeh/patara-app-assessment.git
-cd patara-app-assessment
+git clone https://github.com/Babak-Taghizadeh/sample-dashboard.git
+cd sample-dashboard
 ```
 
 2- Install dependencies
